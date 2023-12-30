@@ -1,0 +1,374 @@
+$ OMRON Sysmac Studio Generated Electronic Data Sheet
+[File]
+        DescText = "";
+        CreateDate = 01-01-2020;
+        CreateTime = 00:00:00;
+        ModDate = 01-01-2020;
+        ModTime = 00:00:00;
+        Revision = 1.0;
+        EDSFileCRC = 0x16B9A185;
+
+[Device]
+        VendCode = 48;
+        VendName = "Turck";
+        ProdType = 100;
+        ProdTypeStr = "SafetyIO";
+        ProdCode = 20014;
+        MajRev = 3;
+        MinRev = 1;
+        ProdName = "TBIP-L5-4FDI-4FDX_7";
+
+[Device Classification]
+        Class1 = EtherNetIP;
+        Class2 = Safety;
+
+[Params]
+        Param1 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0A04,                 $ Descriptor
+                0xC8,                   $ Data Type
+                4,                      $ Data Size in bytes
+                "EPI",                  $ name
+                "ms",                   $ units
+                "",                     $ help string
+                10000,1000000,10000,    $ min, max, default data values
+                1,1000,1,0,             $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                0;                      $ decimal places
+        Param101 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0A00,                 $ Descriptor
+                0xD1,                   $ Data Type
+                1,                      $ Data Size in bytes
+                "Safety Input Data Byte 1",     $ name
+                "",                     $ units
+                "",                     $ help string
+                ,,0,                    $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param102 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0A00,                 $ Descriptor
+                0xD1,                   $ Data Type
+                1,                      $ Data Size in bytes
+                "Safety Input Data Byte 2",     $ name
+                "",                     $ units
+                "",                     $ help string
+                ,,0,                    $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param103 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0A00,                 $ Descriptor
+                0xD1,                   $ Data Type
+                1,                      $ Data Size in bytes
+                "Safety Input Data Byte 3",     $ name
+                "",                     $ units
+                "",                     $ help string
+                ,,0,                    $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param104 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0A00,                 $ Descriptor
+                0xD1,                   $ Data Type
+                1,                      $ Data Size in bytes
+                "Safety Input Data Byte 4",     $ name
+                "",                     $ units
+                "",                     $ help string
+                ,,0,                    $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param105 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0A00,                 $ Descriptor
+                0xD1,                   $ Data Type
+                1,                      $ Data Size in bytes
+                "Safety Input Data Byte 5",     $ name
+                "",                     $ units
+                "",                     $ help string
+                ,,0,                    $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param106 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0A00,                 $ Descriptor
+                0xD1,                   $ Data Type
+                1,                      $ Data Size in bytes
+                "Safety Input Data Byte 6",     $ name
+                "",                     $ units
+                "",                     $ help string
+                ,,0,                    $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param107 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0A00,                 $ Descriptor
+                0xD1,                   $ Data Type
+                1,                      $ Data Size in bytes
+                "Safety Input Data Byte 7",     $ name
+                "",                     $ units
+                "",                     $ help string
+                ,,0,                    $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param108 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0A00,                 $ Descriptor
+                0xD1,                   $ Data Type
+                1,                      $ Data Size in bytes
+                "Safety Input Data Byte 8",     $ name
+                "",                     $ units
+                "",                     $ help string
+                ,,0,                    $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param501 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0A00,                 $ Descriptor
+                0xD1,                   $ Data Type
+                1,                      $ Data Size in bytes
+                "Safety Output Data Byte 1",    $ name
+                "",                     $ units
+                "",                     $ help string
+                ,,0,                    $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param502 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0A00,                 $ Descriptor
+                0xD1,                   $ Data Type
+                1,                      $ Data Size in bytes
+                "Safety Output Data Byte 2",    $ name
+                "",                     $ units
+                "",                     $ help string
+                ,,0,                    $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param503 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0A00,                 $ Descriptor
+                0xD1,                   $ Data Type
+                1,                      $ Data Size in bytes
+                "Safety Output Data Byte 3",    $ name
+                "",                     $ units
+                "",                     $ help string
+                ,,0,                    $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param504 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0A00,                 $ Descriptor
+                0xD1,                   $ Data Type
+                1,                      $ Data Size in bytes
+                "Safety Output Data Byte 4",    $ name
+                "",                     $ units
+                "",                     $ help string
+                ,,0,                    $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param505 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0A00,                 $ Descriptor
+                0xD1,                   $ Data Type
+                1,                      $ Data Size in bytes
+                "Safety Output Data Byte 5",    $ name
+                "",                     $ units
+                "",                     $ help string
+                ,,0,                    $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param506 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0A00,                 $ Descriptor
+                0xD1,                   $ Data Type
+                1,                      $ Data Size in bytes
+                "Safety Output Data Byte 6",    $ name
+                "",                     $ units
+                "",                     $ help string
+                ,,0,                    $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param507 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0A00,                 $ Descriptor
+                0xD1,                   $ Data Type
+                1,                      $ Data Size in bytes
+                "Safety Output Data Byte 7",    $ name
+                "",                     $ units
+                "",                     $ help string
+                ,,0,                    $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param508 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0A00,                 $ Descriptor
+                0xD1,                   $ Data Type
+                1,                      $ Data Size in bytes
+                "Safety Output Data Byte 8",    $ name
+                "",                     $ units
+                "",                     $ help string
+                ,,0,                    $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+
+[Assembly]
+        Assem1024 =
+                "Safety Input Assembly",
+                ,
+                8,
+                0x0000,
+                ,,
+                8,Param101,
+                8,Param102,
+                8,Param103,
+                8,Param104,
+                8,Param105,
+                8,Param106,
+                8,Param107,
+                8,Param108;
+        Assem1056 =
+                "Safety Output Assembly",
+                ,
+                8,
+                0x0000,
+                ,,
+                8,Param501,
+                8,Param502,
+                8,Param503,
+                8,Param504,
+                8,Param505,
+                8,Param506,
+                8,Param507,
+                8,Param508;
+
+[Connection Manager]
+        DefaultSafetyConnections = 1,2;
+        SafetyFormat = 2;
+        Connection1 =
+                0x02040001,             $ 0-15    = supported transport classes
+                                        $ 16      = trigger: cyclic
+                                        $ 17      = trigger: change of state
+                                        $ 18      = trigger: application
+                                        $ 19-23   = trigger: reserved
+                                        $ 24      = application type: listen-only
+                                        $ 25      = application type: input-only
+                                        $ 26      = application type: exclusive-owner
+                                        $ 27      = application type: redundant-owner
+                                        $ 28-30   = reserved
+                                        $ 31      = Direction: Client = 0 / Server = 1
+                0x22445505,             $ 0       = O->T fixed size supported
+                                        $ 1       = O->T variable size supported
+                                        $ 2       = T->O fixed size supported
+                                        $ 3       = T->O variable size supported
+                                        $ 4-5     = O->T number of bytes per slot (obsolete)
+                                        $ 6-7     = T->O number of bytes per slot (obsolete)
+                                        $ 8-10    = O->T Real time transfer format
+                                        $ 11      = reserved
+                                        $ 12-14   = T->O Real time transfer format
+                                        $ 15      = reserved
+                                        $ 16      = O->T connection type: NULL
+                                        $ 17      = O->T connection type: MULTICAST
+                                        $ 18      = O->T connection type: POINT2POINT
+                                        $ 19      = O->T connection type: reserved
+                                        $ 20      = T->O connection type: NULL
+                                        $ 21      = T->O connection type: MULTICAST
+                                        $ 22      = T->O connection type: POINT2POINT
+                                        $ 23      = T->O connection type: reserved
+                                        $ 24      = O->T priority: LOW
+                                        $ 25      = O->T priority: HIGH
+                                        $ 26      = O->T priority: SCHEDULED
+                                        $ 27      = O->T priority: reserved
+                                        $ 28      = T->O priority: LOW
+                                        $ 29      = T->O priority: HIGH
+                                        $ 30      = T->O priority: SCHEDULED
+                                        $ 31      = T->O priority: reserved
+                ,,,                     $ O->T RPI, size, format
+                Param1,,Assem1024,      $ T->O RPI, size, format
+                ,,                      $ proxy config size, format
+                ,,                      $ target config size, format
+                "Safety Input",         $ Connection Name
+                "",                     $ help string
+                "20 04 25 00 40 04 25 00 FF 04 25 00 00 04",    $ Path
+                ,
+                ;
+        Connection2 =
+                0x84040001,             $ 0-15    = supported transport classes
+                                        $ 16      = trigger: cyclic
+                                        $ 17      = trigger: change of state
+                                        $ 18      = trigger: application
+                                        $ 19-23   = trigger: reserved
+                                        $ 24      = application type: listen-only
+                                        $ 25      = application type: input-only
+                                        $ 26      = application type: exclusive-owner
+                                        $ 27      = application type: redundant-owner
+                                        $ 28-30   = reserved
+                                        $ 31      = Direction: Client = 0 / Server = 1
+                0x22445505,             $ 0       = O->T fixed size supported
+                                        $ 1       = O->T variable size supported
+                                        $ 2       = T->O fixed size supported
+                                        $ 3       = T->O variable size supported
+                                        $ 4-5     = O->T number of bytes per slot (obsolete)
+                                        $ 6-7     = T->O number of bytes per slot (obsolete)
+                                        $ 8-10    = O->T Real time transfer format
+                                        $ 11      = reserved
+                                        $ 12-14   = T->O Real time transfer format
+                                        $ 15      = reserved
+                                        $ 16      = O->T connection type: NULL
+                                        $ 17      = O->T connection type: MULTICAST
+                                        $ 18      = O->T connection type: POINT2POINT
+                                        $ 19      = O->T connection type: reserved
+                                        $ 20      = T->O connection type: NULL
+                                        $ 21      = T->O connection type: MULTICAST
+                                        $ 22      = T->O connection type: POINT2POINT
+                                        $ 23      = T->O connection type: reserved
+                                        $ 24      = O->T priority: LOW
+                                        $ 25      = O->T priority: HIGH
+                                        $ 26      = O->T priority: SCHEDULED
+                                        $ 27      = O->T priority: reserved
+                                        $ 28      = T->O priority: LOW
+                                        $ 29      = T->O priority: HIGH
+                                        $ 30      = T->O priority: SCHEDULED
+                                        $ 31      = T->O priority: reserved
+                Param1,,Assem1056,      $ O->T RPI, size, format
+                ,,,                     $ T->O RPI, size, format
+                ,,                      $ proxy config size, format
+                ,,                      $ target config size, format
+                "Safety Output",        $ Connection Name
+                "",                     $ help string
+                "20 04 25 00 40 04 25 00 20 04 25 00 FF 04",    $ Path
+                ,
+                ;
